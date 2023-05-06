@@ -1,0 +1,65 @@
+/*    --CSS Section Indexes
+    1- Common Section
+    2- General Section
+    3- Header Section
+    4- Sections:
+        4.1 Home Section
+        4.2 About Section
+        4.3 Portfolio Section
+        4.4 Services Section
+        4.5 Prices Section
+        4.6 Team Section
+        4.7 Blog Section
+        4.8 Contact Section
+    5- footer Section 
+*/
+/*  1- comon effects
+    - container box
+    - Opacity hover effect
+    - Section header effect
+    - Section Padding effect
+    - hover effect ( left to right )
+    - hover effect ( top to bottom )
+    */
+/*  2- General Css Styles */
+*{margin:0;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+:root{--main-color:#6195ff;}
+body{font-family:'Montserrat',sans-serif;font-family:'Varela Round',sans-serif}a{text-decoration:none}ul{list-style:none}
+h1,h2,h3,h4,h5{font-family:Montserrat,sans-serif;font-weight:bolder;}button{font-family:inherit;font-weight:lighter}.container{width:80%}  
+/* 3- Header */
+#header{z-index:100}.clear{clear:both}/*.header-content{overflow:hidden}*/
+.header .nav > li > a{text-decoration:none}.header .nav > li > a::after{content:"";display:block;width:0;height:3px;background-color:var(--main-color);margin-top:3px;transition:width 0.4s}.header .nav > li > a:hover::after,.header .nav > li > a.active::after{width:100%}
+.dropdown-menu{opacity:0;visibility:hidden}.dropdown:hover .dropdown-menu{visibility:visible;opacity:1}
+/* 4.1- Home Section */
+.home{background-image:url(../imgs/background/background1.webp);background-size:cover}.home .title{font-size:3.5rem}
+.home-content{letter-spacing:2px}.home-desc{letter-spacing:1.25px}
+.home .btn{min-width:160px;width:160px;padding:15px 0;border:0;cursor:pointer}
+/* 4.2- About Section */
+.about-item:hover h2{color:white}
+/* 4.3- Portfolio Section */
+.layer,.category,.portfolio-item a,.layer-title{opacity:0;visibility:hidden}.portfolio-item:hover .layer,.portfolio-item:hover .category,.portfolio-item:hover a,.portfolio-item:hover .layer-title{visibility:visible;opacity:1;top:0}
+/* 4.4.1- Offers Section */
+.offers-section .offer:hover h2{color:white}
+/* 4.4.2- Services Section */
+section.services .bollets li:hover{background-color:#6195ff;color:#6195ff;cursor:pointer}
+/* 4.4.3- Numbers Section */
+.numbers{background-image:url(../imgs/background/background2.webp);background-size:cover;background-attachment:fixed}
+/* 4.5- Prices Section */
+.btnNow:hover,.plan:hover .tplan,.dprice:hover{background-color:var(--main-color);color:white}
+/* Testimonial */
+.testimonial{background-image:url(../imgs/background/background3.webp);background-size:cover;background-attachment:fixed}
+/* 4.6- Team Section */
+.team-overlay{opacity:0;visibility:hidden}.team-pics:hover .team-overlay{visibility:visible;opacity:1}.team.ttb-effect{z-index:1}
+.team:hover .team-info-title{color:white}.team:hover .team-info-desc{color:#6195ff}
+/* 4.7- Blog Section */
+
+/* 4.8- Contact Section */
+input[type="text"]:focus,input[type="email"]:focus,textarea:focus{background-color:#f9f9f9;border:1px solid #6195ff;outline:none}
+/* 5- Foonter Section */
+
+/* blog posts */
+ul.breadcrumb li+li:before {padding:8px;color:black;content:"/\00a0"} 
+  /* Add a color to all links inside the list */
+ul.breadcrumb li a {color: #0275d8;text-decoration: none}  
+  /* Add a color on mouse-over */
+ul.breadcrumb li a:hover {color: #01447e;text-decoration: underline}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML and CSS Template: The First Template">
+    <meta name="keywords" content="HTML CSS Design">
+    <title>Blog Posts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Varela+Round&family=Work+Sans:wght@200;300;400;500;600;700;800;900;&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/freamwork.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="blog-header w-full">
+        <div class="container m-auto">
+            <div class="header-content flow-hd">
+                <div class="logo w-thrd l-float">
+                    <a href="index.html"><img src="imgs/logo.webp" alt="main Logo Image" class="image w-twnt mt-15 " draggable="false"></a> 
+                </div>
+                <ul class="nav w-six l-float fs-smller ml-ten ">
+                    <li class="ds-inblock"><a class="c-black ds-block p-3015" href="index.html#home">Home</a></li>
+                    <li class="ds-inblock"><a class="c-black ds-block p-3015" href="index.html#about">About</a></li>
+                    <li class="ds-inblock"><a class="c-black ds-block p-3015" href="index.html#portfolio">Portfolio</a></li>
+                    <li class="ds-inblock"><a class="c-black ds-block p-3015" href="index.html#offers">Offers</a></li>
+                    <li class="ds-inblock"><a class="c-black ds-block p-3015" href="index.html#services">Services</a></li>
+                    <li class="ds-inblock"><a class="c-black ds-block p-3015" href="index.html#prices">Prices</a></li>
+                    <li class="ds-inblock"><a class="c-black ds-block p-3015" href="index.html#team">Team</a></li>
+                    <li class="dropdown pos-rel ds-inblock">
+                        <a  class="c-black ds-block  p-3015" href="index.html#blog">Blog  <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu pos-abs bg-main w-125 txt-l fs-smller trnsit-05 l-twnt t-sven">
+                            <li class="ds-inblock"><a class="active ds-block c-white p-10 fw-lighter" href="posts.html">blog posts</a></li>
+                        </ul>
+                    </li>
+                    <li class="ds-inblock"><a class="c-black ds-block p-3015" href="index.html#contact">Contact</a></li>
+                </ul>
+                <div class="clear"></div>
+            </div> <!-- ./header-content -->
+        </div> <!-- ./container -->        
+    </header>
+    <section id=bloghome class="bloghome h-125 bg-bloghome">
+        <div class="container m-auto flow-hd">
+            <div class="blog-logo w-four fw-blod c-black ptb-50 l-float"><h2 class="cpliz">blog page</h2></div>
+            <div class="breadcambs w-sixty l-float ptb-50">
+                <ul class="breadcrumb ds-block bg-trans ml-ffty">
+                    <li class="ds-inline"><a href="index.html#home">Home</a></li>
+                    <li class="ds-inline"><a href="index.html#blog">Blog</a></li>
+                    <li class="ds-inline">Posts</li>
+                  </ul>
+            </div>
+        </div> <!-- ./home-content -->
+    </section> <!-- ./home -->    
+    <section id=posts class="posts pdd-sec w-full bg-ligh">
+        <div class="container m-auto w-egthy">
+            <div class="post-content flow-hd ">
+                <div class="post-item w-sveny l-float mb-five pos-rel p-20">
+                    <img src="imgs/blog/blog1.webp" alt="Main Blog Post" class="w-full ">
+                    <div class="layer pos-abs t-zero l-zero w-full h-full bg-layer trnsit-05"></div>
+                    <div class="all-info p-20">
+                        <ul class="ds-block m-10">
+                            <li class="ds-inblock mr-15 fs-30"><i class="fs-30 mr-5 c-main fa fa-user"></i>John doe</li>
+                            <li class="ds-inblock mr-15 fs-30"><i class="fs-30 mr-5 c-main fa fa-clock-o"></i>18 Oct</li>
+                            <li class="ds-inblock mr-15 fs-30"><i class="fs-30 mr-5 c-main fa fa-comment"></i>57</li>
+                        </ul>
+                        <div class="blog-dtil">
+                            <h2 class="title m-2010 fs-40">Moste recent reason created CSS file</h2>
+                            <p class="m-10 fw-lighter fs-30 c-gray linhig-1-7">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, illum?
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, illum?
+                                Lorem, ipsum dolor sit elit. Quod, illum?
+                            </p>
+                            <a href="#" class="bg-trans brdr-zero m-10 c-main pointr fs-30">Read more...</a>
+                        </div>
+                    </div>
+                </div>
+                <nav class="Post-nav w-thrd l-float mb-five pos-rel p-20">
+                    <input type="text" name="search" id="" class="ds-block w-full p-15 mt-15 mb-15 brdr-3ligh fs-16 " placeholder="Search">
+                    <a><i class="fa fa-search fa-lg c-main mr-auto pos-abs srch-icon "></i></a>
+                    <div class="section-header txt-l">
+                        <h2 class="section-title upper fs-22 mb-15 mt-30">category</h2>
+                        <span class="line ds-block h-5 w-40 bg-main mt-0 mr-0 ml-0 mb-50"></span>
+                    </div>
+                    <ul class="mt-20 fs-18">
+                        <li class="brdrt-2ligh ds-inblock p-15 "><a href="#" class="cpliz c-gray">web design <span class="c-main r-zero">(7)</span></a></li>
+                        <li class="brdrt-2ligh ds-inblock p-15 "><a href="#" class="cpliz c-gray">web development <span class="c-main r-zero">(127)</span></a></li>
+                        <li class="brdrt-2ligh ds-inblock p-15 "><a href="#" class="cpliz c-gray">marketing <span class="c-main r-zero">(47)</span></a></li>
+                        <li class="brdrt-2ligh ds-inblock p-15 "><a href="#" class="cpliz c-gray">branding <span class="c-main r-zero">(42)</span></a></li>
+                        <li class="brdrt-2ligh ds-inblock p-15 brdrb-2ligh "><a href="#" class="cpliz c-gray">photography <span class="c-main r-zero">(227)</span></a></li>
+                    </ul>
+                    <div class="section-header txt-l">
+                        <h2 class="section-title upper fs-22 mb-15 mt-30">popular posts</h2>
+                        <span class="line ds-block h-5 w-40 bg-main mt-0 mr-0 ml-0 mb-50"></span>
+                    </div>
+                    <div class="blog-content flow-hd">
+                        <div class="blog bg-white flow-hd mt-20 mb-20 brdrb-2ligh">
+                            <div class="blog-img w-thrd l-float ">
+                                <img src="imgs/blog/blog2.webp" alt="The Recent Blog Image" class="w-full">
+                            </div>
+                            <div class="blog-dtil l-float w-sveny pr-20 pl-20">
+                                <h3 class="title mb-5 mt-5">big title goes here</h3>
+                                <span class=""><i class="fs-16 mr-5 c-main fa fa-clock-o"></i>18 Oct 2021</span>
+                            </div>
+                        </div>
+                        <div class="blog bg-white flow-hd mt-20 mb-20 brdrb-2ligh">
+                            <div class="blog-img w-thrd l-float ">
+                                <img src="imgs/blog/blog3.webp" alt="The Recent Blog Image" class="w-full">
+                            </div>
+                            <div class="blog-dtil l-float w-sveny pr-20 pl-20">
+                                <h3 class="title mb-5 mt-5">big title goes here</h3>
+                                <span class=""><i class="fs-16 mr-5 c-main fa fa-clock-o"></i>18 Oct 2021</span>
+                            </div>
+                        </div>
+                        <div class="blog bg-white flow-hd mt-20 mb-20 brdrb-2ligh">
+                            <div class="blog-img w-thrd l-float ">
+                                <img src="imgs/blog/blog1.webp" alt="The Recent Blog Image" class="w-full">
+                            </div>
+                            <div class="blog-dtil l-float w-sveny pr-20 pl-20">
+                                <h3 class="title mb-5 mt-5">big title goes here</h3>
+                                <span class=""><i class="fs-16 mr-5 c-main fa fa-clock-o"></i>18 Oct 2021</span>
+                            </div>
+                        </div>
+                    </div>
+                    </nav>
+            </div>
+            <!-- <div class="clear"></div> -->
+        </div> <!-- ./container -->
+    </section>
+    <!-- footer -->
+    <footer id="footer" class="pdd-sec w-full bg-effct txt-c">
+        <div class="container w-egthy m-auto">
+            <img src="imgs/logo-alt.webp" alt="" class="ds-block m-auto" draggable="false">
+            <ul class="m">
+                <li class="ds-inblock w-48 h-48 bg-main rad-6 mt-20 mb-20 mr-5 "><a href="#" class="ds-block c-white hover-opacity ml-5"><i class="linhig-48 fs-26 fa-3x fa fa-facebook"></i></a></li>
+                <li class="ds-inblock w-48 h-48 bg-main rad-6 mt-20 mb-20 mr-5 "><a href="#" class="ds-block c-white hover-opacity ml-5"><i class="linhig-48 fs-26 fa-3x fa fa-twitter"></i></a></li>
+                <li class="ds-inblock w-48 h-48 bg-main rad-6 mt-20 mb-20 mr-5 "><a href="#" class="ds-block c-white hover-opacity ml-5"><i class="linhig-48 fs-26 fa-3x fa fa-linkedin"></i></a></li>
+                <li class="ds-inblock w-48 h-48 bg-main rad-6 mt-20 mb-20 mr-5 "><a href="#" class="ds-block c-white hover-opacity ml-5"><i class="linhig-48 fs-26 fa-3x fa fa-google-plus"></i></a></li>
+                <li class="ds-inblock w-48 h-48 bg-main rad-6 mt-20 mb-20 mr-5 "><a href="#" class="ds-block c-white hover-opacity ml-5"><i class="linhig-48 fs-26 fa-3x fa fa-youtube"></i></a></li>
+                <li class="ds-inblock w-48 h-48 bg-main rad-6 mt-20 mb-20 mr-5 "><a href="#" class="ds-block c-white hover-opacity ml-5"><i class="linhig-48 fs-26 fa-3x fa fa-instagram"></i></a></li>
+            </ul>
+            <p class="upper c-gray fs-16 fw-lighter">
+                copyright &copy; 2023 all right reserved by colorlib
+            </p>
+        </div>
+    </footer>
+</body>

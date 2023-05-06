@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML and CSS Template: The First Template">
+    <meta name="keywords" content="HTML CSS Design">
+    <title>HTML CSS First Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Varela+Round&family=Work+Sans:wght@200;300;400;500;600;700;800;900;&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/freamwork.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header" class="header pos-fix w-full">
+        <div class="container m-auto w-egthy">
+            <div class="header-content">
+                <div class="logo w-four l-float">
+                    <a href="index.html"><img src="imgs/logo-alt.webp" alt="main Logo Image" class="image w-twnt mt-15" draggable="false"></a> 
+                </div>
+                <ul class="nav txt-r w-six l-float fs-smller r-zero">
+                    <li class="ds-inblock"><a class="c-white ds-block p-3015 active" href="#home">Home</a></li>
+                    <li class="ds-inblock"><a class="c-white ds-block p-3015" href="#about">About</a></li>
+                    <li class="ds-inblock"><a class="c-white ds-block p-3015" href="#portfolio">Portfolio</a></li>
+                    <li class="ds-inblock"><a class="c-white ds-block p-3015" href="#offers">Offers</a></li>
+                    <li class="ds-inblock"><a class="c-white ds-block p-3015" href="#services">Services</a></li>
+                    <li class="ds-inblock"><a class="c-white ds-block p-3015" href="#prices">Prices</a></li>
+                    <li class="ds-inblock"><a class="c-white ds-block p-3015" href="#team">Team</a></li>
+                    <li class="dropdown pos-rel ds-inblock">
+                        <a  class="c-white ds-block  p-3015" href="#blog">Blog  <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu pos-abs bg-main w-125 txt-l fs-smller trnsit-05 l-twnt t-sven">
+                            <li class="ds-inblock"><a class="ds-block c-white p-10 fw-lighter" href="posts.html">blog posts</a></li>
+                        </ul>
+                    </li>
+                    <li class="ds-inblock"><a class="c-white ds-block p-3015" href="#contact">Contact</a></li>
+                </ul>
+                <!-- <div class="clear"></div> ./clear -->
+            </div> <!-- ./header-content -->
+        </div> <!-- ./container -->        
+    </header>
+    <section id=home class="home pos-rel h-fullvh">
+        <div class="overlay w-full h-full pos-abs t-zero l-zero bg-layer">
+            <div class="home-content pos-abs txt-c w-sveny hero-cnter">
+                <h1 class="title c-white upper">we are creative agency</h1>
+                <p class="home-desc c-white m-20z linhig-25">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius harum nam dolorum, 
+                    voluptatum quis <br> neque fugiat atque. Aut voluptatum a atque fuga beatae veniam voluptate velit error nostrum rerum. 
+                </p>
+                <button class="btn btn-start hover-opacity rad-6 bg-white mr-10 fs-18">Get Started !</button>            
+                <button class="btn btn-learn hover-opacity rad-6 c-white bg-main fs-18">Learn More !</button>            
+            </div> <!-- ./home-content -->
+        </div> <!-- ./overlay -->
+    </section> <!-- ./home -->    
+    <!-- About -->
+    <section id=about class="about pdd-sec w-full">        
+        <div class="section-header txt-c">
+            <h2 class="section-title cpliz fs-36 mb-15 mt-30">welcome to website</h2>
+            <span class="line ds-block h-5 w-75 bg-main mt-0 mr-auto ml-auto mb-70"></span>
+        </div> <!-- ./section-header -->
+        <div class="container m-auto txt-c w-egthy">
+            <div class="about-content flow-hd">
+                <div class="about-item w-thrd l-float brdr-ligh pt-50 pb-50 pr-20 pl-20 ltr-effect">
+                    <i class="icon fa fa-cogs fa-3x c-main mb-10"></i>
+                    <h2 class="about-item-title cpliz mb-15 trnsit-05">fully customize</h2>
+                    <p class="about-item-desc linhig-1-6 mb-10 c-gray">
+                        Lorem ipsum dolor sit amet,<br>consectetur adipisicing elit. Unde, ratione ,<br> quaerat quos! voluptate ...
+                    </p>
+                    <a href="#" class="c-main cpliz fw-bold c-main fs-larg">read more</a>
+                </div>
+                <div class="about-item scnd w-thrd l-float brdr-ligh mrg-mdl pt-50 pb-50 pr-20 pl-20 ltr-effect">
+                    <i class="icon fa fa-magic fa-3x c-main mb-10"></i>
+                    <h2 class="about-item-title cpliz mb-15 trnsit-05">awesome feature</h2>
+                    <p class="about-item-desc linhig-1-6 mb-10 c-gray">
+                        Lorem ipsum dolor sit amet,<br>consectetur adipisicing elit. Unde, ratione ,<br> quaerat quos! voluptate ...
+                    </p>
+                    <a href="#" class="c-main cpliz fw-bold c-main fs-larg">read more</a>
+                </div>
+                <div class="about-item w-thrd l-float brdr-ligh pt-50 pb-50 pr-20 pl-20 ltr-effect">
+                    <i class="icon fa fa-mobile fa-3x c-main mb-10"></i>
+                    <h2 class="about-item-title cpliz mb-15 trnsit-05">fully responseve</h2>
+                    <p class="about-item-desc linhig-1-6 mb-10 c-gray">
+                        Lorem ipsum dolor sit amet,<br>consectetur adipisicing elit. Unde, ratione ,<br> quaerat quos! voluptate ...
+                    </p>
+                    <a href="#" class="c-main cpliz fw-bold c-main fs-larg">read more</a>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div> <!-- ./container -->
+    </section>
+    <!-- Portfolio Section -->
+    <section id=portfolio class="portfolio pdd-sec w-full bg-ligh">
+        <div class="section-header txt-c">
+            <h2 class="section-title cpliz fs-36 mb-15 mt-30">featured works</h2>
+            <span class="line ds-block h-5 w-75 bg-main mt-0 mr-auto ml-auto mb-70"></span>
+        </div> <!-- ./section-header -->        
+        <div class="container m-auto w-egthy">
+            <div class="portfolio-content flow-hd ">
+                <div class="portfolio-item w-thrd l-float mb-five pos-rel p-20">
+                    <img src="imgs/work/work1.webp" alt="Portofolio Background" class="w-full ">
+                    <div class="layer pos-abs t-zero l-zero w-full h-full bg-layer trnsit-05">
+                        <div class="inlayer pos-abs hero-cnter w-six txt-c">
+                            <span class="fs-larger category upper c-main ds-block mb-15 pos-rel t-10 trnsit-05 ">category</span>
+                            <p class="layer-title fs-larg c-white mb-15 fw-bloder pos-rel t-10 trnsit-05 trnsdly-2">Lorem ipsum dolor sit amet.</p>
+                            <a class="ds-inblock w-40 h-40 bg-main mb-15 pos-rel t-10 trnsit-05 trnsdly-3" href="#">
+                                <i class="linhig-40 c-white fa fa-pencil-square-o " aria-hidden="true"></i>
+                            </a>
+                            <a class="ds-inblock w-40 h-40 bg-main mb-15 pos-rel t-10 trnsit-05 trnsdly-3" href="#">
+                                <i class="linhig-40 c-white fa fa-search " aria-hidden="true"></i>
+                            </a>    
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item w-thrd l-float mb-five mrg-mdl pos-rel p-20">
+                    <img src="imgs/work/work2.webp" alt="Portofolio Background" class="w-full ">
+                    <div class="layer pos-abs t-zero l-zero w-full h-full bg-layer trnsit-05">
+                        <div class="inlayer pos-abs hero-cnter w-six txt-c">
+                            <span class="fs-larger category upper c-main ds-block mb-15 pos-rel t-10 trnsit-05 ">category</span>
+                            <p class="layer-title fs-larg c-white mb-15 fw-bloder pos-rel t-10 trnsit-05 trnsdly-2">Lorem ipsum dolor sit amet.</p>
+                            <a class="ds-inblock w-40 h-40 bg-main mb-15 pos-rel t-10 trnsit-05 trnsdly-3" href="#">
+                                <i class="linhig-40 c-white fa fa-pencil-square-o " aria-hidden="true"></i>
+                            </a>
+                            <a class="ds-inblock w-40 h-40 bg-main mb-15 pos-rel t-10 trnsit-05 trnsdly-3" href="#">
+                                <i class="linhig-40 c-white fa fa-search " aria-hidden="true"></i>
+                            </a>    
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item w-thrd l-float mb-five pos-rel p-20">
+                    <img src="imgs/work/work3.webp" alt="Portofolio Background" class="w-full">
+                    <div class="layer pos-abs t-zero l-zero w-full h-full bg-layer trnsit-05">
+                        <div class="inlayer pos-abs hero-cnter w-six txt-c">
+                            <span class="fs-larger category upper c-main ds-block mb-15 pos-rel t-10 trnsit-05 ">category</span>
+                            <p class="layer-title fs-larg c-white mb-15 fw-bloder pos-rel t-10 trnsit-05 trnsdly-2">Lorem ipsum dolor sit amet.</p>
+                            <a class="ds-inblock w-40 h-40 bg-main mb-15 pos-rel t-10 trnsit-05 trnsdly-3" href="#">
+                                <i class="linhig-40 c-white fa fa-pencil-square-o " aria-hidden="true"></i>
+                            </a>
+                            <a class="ds-inblock w-40 h-40 bg-main mb-15 pos-rel t-10 trnsit-05 trnsdly-3" href="#">
+                                <i class="linhig-40 c-white fa fa-search " aria-hidden="true"></i>
+                            </a>    
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item w-thrd l-float mb-five pos-rel p-20">
+                    <img src="imgs/work/work4.webp" alt="Portofolio Background" class="w-full ">
+                    <div class="layer pos-abs t-zero l-zero w-full h-full bg-layer trnsit-05">
+                        <div class="inlayer pos-abs hero-cnter w-six txt-c">
+                            <span class="fs-larger category upper c-main ds-block mb-15 pos-rel t-10 trnsit-05 ">category</span>
+                            <p class="layer-title fs-larg c-white mb-15 fw-bloder pos-rel t-10 trnsit-05 trnsdly-2">Lorem ipsum dolor sit amet.</p>
+                            <a class="ds-inblock w-40 h-40 bg-main mb-15 pos-rel t-10 trnsit-05 trnsdly-3" href="#">
+                                <i class="linhig-40 c-white fa fa-pencil-square-o " aria-hidden="true"></i>
+                            </a>
+                            <a class="ds-inblock w-40 h-40 bg-main mb-15 pos-rel t-10 trnsit-05 trnsdly-3" href="#">
+                                <i class="linhig-40 c-white fa fa-search " aria-hidden="true"></i>
+                            </a>    
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item w-thrd l-float mb-five mrg-mdl pos-rel p-20">
+                    <img src="imgs/work/work5.webp" alt="Portofolio Background" class="w-full ">
+                    <div class="layer pos-abs t-zero l-zero w-full h-full bg-layer trnsit-05">
+                        <div class="inlayer pos-abs hero-cnter w-six txt-c">
+                            <span class="fs-larger category upper c-main ds-block mb-15 pos-rel t-10 trnsit-05 ">category</span>
+                            <p class="layer-title fs-larg c-white mb-15 fw-bloder pos-rel t-10 trnsit-05 trnsdly-2">Lorem ipsum dolor sit amet.</p>
+                            <a class="ds-inblock w-40 h-40 bg-main mb-15 pos-rel t-10 trnsit-05 trnsdly-3" href="#">
+                                <i class="linhig-40 c-white fa fa-pencil-square-o " aria-hidden="true"></i>
+                            </a>
+                            <a class="ds-inblock w-40 h-40 bg-main mb-15 pos-rel t-10 trnsit-05 trnsdly-3" href="#">
+                                <i class="linhig-40 c-white fa fa-search " aria-hidden="true"></i>
+                            </a>    
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item w-thrd l-float mb-five pos-rel p-20">
+                    <img src="imgs/work/work6.webp" alt="Portofolio Background" class="w-full ">
+                    <div class="layer pos-abs t-zero l-zero w-full h-full bg-layer trnsit-05">
+                        <div class="inlayer pos-abs hero-cnter w-six txt-c">
+                            <span class="fs-larger category upper c-main ds-block mb-15 pos-rel t-10 trnsit-05 ">category</span>
+                            <p class="layer-title fs-larg c-white mb-15 fw-bloder pos-rel t-10 trnsit-05 trnsdly-2">Lorem ipsum dolor sit amet.</p>
+                            <a class="ds-inblock w-40 h-40 bg-main mb-15 pos-rel t-10 trnsit-05 trnsdly-3" href="#">
+                                <i class="linhig-40 c-white fa fa-pencil-square-o " aria-hidden="true"></i>
+                            </a>
+                            <a class="ds-inblock w-40 h-40 bg-main mb-15 pos-rel t-10 trnsit-05 trnsdly-3" href="#">
+                                <i class="linhig-40 c-white fa fa-search " aria-hidden="true"></i>
+                            </a>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="clear"></div> -->
+        </div> <!-- ./container -->
+    </section>
+    <!-- Offers -->
+    <section id=offers class="offers-section pdd-sec w-full">
+        <div class="section-header txt-c">
+            <h2 class="section-title cpliz fs-36 mb-15 mt-30">what we offer</h2>
+            <span class="line ds-block h-5 w-75 bg-main mt-0 mr-auto ml-auto mb-70"></span>
+        </div> <!-- ./section-header -->
+        <div class="container m-auto w-egthy">
+            <div class="offers flow-hd">
+                <div class="offer w-thrd l-float brdr-ligh pt-30 pr-15 pb-30 pl-70 pos-rel ltr-effect mb-five trnsit-05">
+                    <i class="icon fa fa-diamond fa-2x pos-abs l-15 t-30 c-main"></i>
+                    <h2 class="offer-title cpliz fw-bloder mb-15 trnsit-05">app development</h2>
+                    <p class="offer-desc fw-lighter linhig-1-6 c-gray fw-lighter">Lorem ipsum dolor sit amet consectetur<br>adipisicing elit. Soluta culpa, nostrum<br> ut sed deserunt.</p>
+                </div>
+                <div class="offer w-thrd l-float mrg-mdl brdr-ligh pt-30 pr-15 pb-30 pl-70 ltr-effect mb-five  trnsit-05pos-rel">
+                    <i class="icon fa fa-rocket fa-2x pos-abs l-15 t-30 c-main"></i>
+                    <h2 class="offer-title cpliz fw-bloder mb-15 trnsit-05">graphic design</h2>
+                    <p class="offer-desc fw-lighter linhig-1-6 c-gray fw-lighter">Lorem ipsum dolor sit amet consectetur<br>adipisicing elit. Soluta culpa, nostrum<br> ut sed deserunt.</p>
+                </div>
+                <div class="offer w-thrd l-float brdr-ligh pt-30 pr-15 pb-30 pl-70 pos-rel ltr-effect mb-five trnsit-05">
+                    <i class="icon fa fa-cogs fa-2x pos-abs l-15 t-30 c-main"></i>
+                    <h2 class="offer-title cpliz fw-bloder mb-15 trnsit-05">creative idea</h2>
+                    <p class="offer-desc fw-lighter linhig-1-6 c-gray fw-lighter">Lorem ipsum dolor sit amet consectetur<br>adipisicing elit. Soluta culpa, nostrum<br> ut sed deserunt.</p>
+                </div>
+                <div class="offer w-thrd l-float brdr-ligh pt-30 pr-15 pb-30 pl-70 pos-rel ltr-effect mb-five trnsit-05">
+                    <i class="icon fa fa-diamond fa-2x pos-abs l-15 t-30 c-main"></i>
+                    <h2 class="offer-title cpliz fw-bloder mb-15 trnsit-05">marketing</h2>
+                    <p class="offer-desc fw-lighter linhig-1-6 c-gray fw-lighter">Lorem ipsum dolor sit amet consectetur<br>adipisicing elit. Soluta culpa, nostrum<br> ut sed deserunt.</p>
+                </div>
+                <div class="offer w-thrd l-float mrg-mdl brdr-ligh pt-30 pr-15 pb-30 pl-70 ltr-effect mb-five trnsit-05 pos-rel">
+                    <i class="icon fa fa-pencil fa-2x pos-abs l-15 t-30 c-main"></i>
+                    <h2 class="offer-title cpliz fw-bloder mb-15 trnsit-05">awesome support</h2>
+                    <p class="offer-desc fw-lighter linhig-1-6 c-gray fw-lighter">Lorem ipsum dolor sit amet consectetur<br>adipisicing elit. Soluta culpa, nostrum<br> ut sed deserunt.</p>
+                </div>
+                <div class="offer w-thrd l-float brdr-ligh pt-30 pr-15 pb-30 pl-70 pos-rel ltr-effect mb-five trnsit-05">
+                    <i class="icon fa fa-flash fa-2x pos-abs l-15 t-30 c-main"></i>
+                    <h2 class="offer-title cpliz fw-bloder mb-15 trnsit-05">brand design</h2>
+                    <p class="offer-desc fw-lighter linhig-1-6 c-gray fw-lighter">Lorem ipsum dolor sit amet consectetur<br>adipisicing elit. Soluta culpa, nostrum<br> ut sed deserunt.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services -->
+    <section id=services class="services pdd-sec w-full bg-ligh">
+        <div class="container m-auto w-egthy">
+            <div class="item w-half l-float">
+                <div class="section-header txt-l">
+                    <h2 class="section-title cpliz fs-36 mb-15 mt-30">why choose us</h2>
+                    <span class="line ds-block h-5 w-75 bg-main mt-0 mr-0 ml-0 mb-50"></span>
+                </div> <!-- ./section-header -->
+                <p class="desc pr-30 pt-30 pb-30 c-gray fw-lighter linhig-1-5 fs-18">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae suscipit amet molestias provident ut saepe, 
+                    nemo corrupti excepturi aut similique consequuntur placeat cupiditate perspiciatis tempore? 
+                    Beatae officiis a impedit. Doloribus.</p>
+                <ul class="list fs-18 linhig-1-5 c-gray">
+                    <li class="pb-15"><i class="fa fa-check c-main mr-10 brdr-2gray rad-half p-5"></i>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, dignissimos.</li>
+                    <li class="pb-15"><i class="fa fa-check c-main mr-10 brdr-2gray rad-half p-5"></i>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, dignissimos.</li>
+                    <li class="pb-15"><i class="fa fa-check c-main mr-10 brdr-2gray rad-half p-5"></i>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, dignissimos.</li>
+                    <li class="pb-15"><i class="fa fa-check c-main mr-10 brdr-2gray rad-half p-5"></i>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, dignissimos.</li>
+                    <li class="pb-15"><i class="fa fa-check c-main mr-10 brdr-2gray rad-half p-5"></i>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, dignissimos.</li>
+                </ul>
+            </div>
+            <div class="item w-half l-float">
+                <div class="srv-img">
+                    <img src="imgs/about/about1.webp" alt="Our Services List" class="w-full p-20 brdr-ligh">
+                </div>
+                <ul class="bollets txt-c">
+                    <li class="w-10 h-10 rad-half brdr-main ds-inblock m-5 mt-20 bg-main c-main"></li>
+                    <li class="w-10 h-10 rad-half brdr-gray ds-inblock m-5 mt-20"></li>
+                    <li class="w-10 h-10 rad-half brdr-gray ds-inblock m-5 mt-20"></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </section>
+    <section class="numbers pos-rel w-full h-300">
+        <div class="overlay w-full h-full pos-abs t-zero l-zero bg-layer">
+            <div class="container m-auto w-egthy ">
+                <div class="number-items flow-hd ptb-80">
+                    <div class="number-item w-qrtr l-float txt-c ">
+                        <i class="c-main fa fa-users fa-3x mb-15"></i>
+                        <h3 class="c-white fw-bloder fs-48">451</h3>
+                        <span class="fw-lighter fs-22 c-white">happy clients</span>
+                    </div>
+                    <div class="number-item w-qrtr l-float txt-c">
+                        <i class="c-main fa fa-trophy fa-3x mb-15"></i>
+                        <h3 class="c-white fw-bloder fs-48">12</h3>
+                        <span class="fw-lighter fs-22 c-white">awards won</span>
+                    </div>
+                    <div class="number-item w-qrtr l-float txt-c">
+                        <i class="c-main fa fa-coffee fa-3x mb-15"></i>
+                        <h3 class="c-white fw-bloder fs-48">154K</h3>
+                        <span class="fw-lighter fs-22 c-white">cups of coffee</span>
+                    </div>
+                    <div class="number-item w-qrtr l-float txt-c">
+                        <i class="c-main fa fa-file fa-3x mb-15"></i>
+                        <h3 class="c-white fw-bloder fs-48">45</h3>
+                        <span class="fw-lighter fs-22 c-white">projects completed</span>
+                    </div>                    
+                </div> <!-- ./number-items -->
+            </div> <!-- ./container -->
+        </div> <!-- ./overlay -->
+    </section>
+    <!-- Pricing Section -->
+    <section id=prices class="prices pos-rel pdd-sec w-full">
+        <div class="section-header txt-c">
+            <h2 class="section-title cpliz fs-36 mb-15 mt-30">pricing table</h2>
+            <span class="line ds-block h-5 w-75 bg-main mt-0 mr-auto ml-auto mb-70"></span>
+        </div> <!-- ./section-header -->
+        <div class="container m-auto w-egthy">
+            <div class="price-plans flow-hd txt-c trnsit-05">
+                <div class="plan p-5015 w-thrd l-float mb-five brdr-3ligh ttb-effect">
+                    <h4 class="tplan ptb-20 upper fs-18 c-gray">Basic Plan</h4>
+                    <div class="dprice w-125 h-125 ptb-25 rad-half brdr-3main m-20auto">
+                        <h3 class="fs-48">$9</h3>
+                        <h5 class="fw-bold upper fs-14">/ month</h5>
+                    </div>
+                    <ul class="fw-lighter c-gray">
+                        <li class="linhig-2-0">1 GB Disk Space</li>
+                        <li class="linhig-2-0">100 Email Account</li>
+                        <li class="linhig-2-0">24/7 Chat Support</li>
+                    </ul>
+                    <button class="btnNow cpliz bg-trans p-1020 w-150 pointr ds-block m-btn brdr-3main c-main">purchase now</button>                    
+                </div> <!-- plan -->
+                <div class="plan p-5015 w-thrd l-float mb-five mrg-mdl brdr-3ligh ttb-effect">
+                    <h4 class="tplan ptb-20 upper fs-18 c-gray">Golden Plan</h4>
+                    <div class="dprice w-125 h-125 ptb-25 rad-half brdr-3main m-20auto">
+                        <h3 class="fs-48">$19</h3>
+                        <h5 class="fw-bold upper fs-14">/ month</h5>
+                    </div>
+                    <ul class="fw-lighter c-gray">
+                        <li class="linhig-2-0">10 GB Disk Space</li>
+                        <li class="linhig-2-0">200 Email Account</li>
+                        <li class="linhig-2-0">24/7 Chat Support</li>
+                    </ul>
+                    <button class="btnNow cpliz bg-trans p-1020 w-150 pointr ds-block m-btn brdr-3main c-main">purchase now</button>                    
+                </div> <!-- plan -->
+                <div class="plan p-5015 w-thrd l-float mb-five brdr-3ligh ttb-effect">
+                    <h4 class="tplan ptb-20 upper fs-18 c-gray">Daimond Plan</h4>
+                    <div class="dprice w-125 h-125 ptb-25 rad-half brdr-3main m-20auto">
+                        <h3 class="fs-48">$39</h3>
+                        <h5 class="fw-bold upper fs-14">/ month</h5>
+                    </div>
+                    <ul class="fw-lighter c-gray">
+                        <li class="linhig-2-0">100 GB Disk Space</li>
+                        <li class="linhig-2-0">500 Email Account</li>
+                        <li class="linhig-2-0">24/7 Chat Support</li>
+                    </ul>
+                    <button class="btnNow cpliz bg-trans p-1020 w-150 pointr ds-block m-btn brdr-3main c-main">purchase now</button>                    
+                </div> <!-- plan -->
+                <div class="clear"></div>
+            </div> <!-- /plans -->
+        </div> <!-- container -->
+    </section>
+    <!-- Testimonials -->
+    <section class="testimonial pos-rel w-full h-450">
+        <div class="overlay w-full h-full pos-abs l-zero t-zero bg-layer">
+            <div class="container m-auto w-egthy">
+                <div class="tstmonils flow-hd ptb-100 w-egthy m-auto">
+                    <div class="item w-half l-float ">
+                        <div class="top-layer pt-30 pr-15 pb-30 pl-120 pos-rel">
+                            <img src="imgs/Testimonial/perso1.webp" alt="Testimonial Person Image" class="rad-half pos-abs l-10 t-10 h-75 w-75 m-10">
+                            <h2 class="cpliz c-white mb-10">john doe</h2>
+                            <span class="upper c-main">web designer</span>
+                        </div>
+                        <p class="c-white linhig-1-7">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> 
+                            veritatis amet ratione magni<br> inventore, nulla fugiat?
+                        </p>
+                    </div>
+                    <div class="item w-half l-float">
+                        <div class="top-layer pt-30 pr-15 pb-30 pl-120 pos-rel">
+                            <img src="imgs/Testimonial/perso2.webp" alt="Testimonial Person Image" class="rad-half pos-abs l-10 t-10 w-75 h-75 m-10">
+                            <h2 class="cpliz c-white mb-10">john doe</h2>
+                            <span class="upper c-main">web designer</span>
+                        </div>
+                        <p class="c-white linhig-1-7">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Excepturi vel architecto dolorem non, 
+                            veritatis amet ratione magni<br>  laborum, nulla fugiat?
+                        </p>
+                    </div>
+                    <div class="clear"></div>
+                </div> <!-- ./tstmonils --> 
+            </div> <!-- ./container -->
+        </div> <!-- ./overlay -->   
+    </section>
+    <!-- Team Section -->
+    <section id=team class="team pos-rel pdd-sec w-full">
+        <div class="section-header txt-c">
+            <h2 class="section-title cpliz fs-36 mb-15 mt-30">our team</h2>
+            <span class="line ds-block h-5 w-75 bg-main mt-0 mr-auto ml-auto mb-70"></span>
+        </div> <!-- ./section-header -->
+        <div class="container m-auto w-egthy">
+            <div class="teams flow-hd trnsit-05">
+                <div class="team l-float bg-e-8 p-4020 w-thrd txt-c ttb-effect">
+                    <div class="team-pics w-ninty m-auto pos-rel">
+                        <img src="imgs/team/team1.webp" alt="Our Team" class="w-full m-auto">
+                        <div class="team-overlay pos-abs t-zero l-zero r-zero b-zero bg-layer trnsit-05">
+                            <a href="#" class="ds-block h-40 w-40 mb-5 ml-auto bg-main c-white"><i class="linhig-40 fa fa-facebook"></i></a>
+                            <a href="#" class="ds-block h-40 w-40 mb-5 ml-auto bg-main c-white"><i class="linhig-40 fa fa-twitter"></i></a>
+                            <a href="#" class="ds-block h-40 w-40 mb-5 ml-auto bg-main c-white"><i class="linhig-40 fa fa-linkedin"></i></a>
+                        </div>
+                    </div>                    
+                    <div class="team-info trnsit-05">
+                        <h3 class="team-info-title cpliz m-10">john doe</h3>
+                        <span class="team-info-desc upper c-gray fs-14">web designer</span>
+                    </div>                    
+                </div>
+                <div class="team l-float bg-e-8 p-4020 w-thrd txt-c ttb-effect mrg-mdl">
+                    <div class="team-pics w-ninty m-auto pos-rel">
+                        <img src="imgs/team/team2.webp" alt="Our Team" class="w-full m-auto">
+                        <div class="team-overlay pos-abs t-zero l-zero r-zero b-zero bg-layer trnsit-05">
+                            <a href="#" class="ds-block h-40 w-40 mb-5 ml-auto bg-main c-white"><i class="linhig-40 fa fa-facebook"></i></a>
+                            <a href="#" class="ds-block h-40 w-40 mb-5 ml-auto bg-main c-white"><i class="linhig-40 fa fa-twitter"></i></a>
+                            <a href="#" class="ds-block h-40 w-40 mb-5 ml-auto bg-main c-white"><i class="linhig-40 fa fa-linkedin"></i></a>
+                        </div>
+                    </div>                    
+                    <div class="team-info trnsit-05">
+                        <h3 class="team-info-title cpliz m-10">john doe</h3>
+                        <span class="team-info-desc upper c-gray fs-14">web designer</span>
+                    </div>                    
+                </div>
+                <div class="team l-float bg-e-8 p-4020 w-thrd txt-c ttb-effect">
+                    <div class="team-pics w-ninty m-auto pos-rel">
+                        <img src="imgs/team/team3.webp" alt="Our Team" class="w-full m-auto">
+                        <div class="team-overlay pos-abs t-zero l-zero r-zero b-zero bg-layer trnsit-05">
+                            <a href="#" class="ds-block h-40 w-40 mb-5 ml-auto bg-main c-white"><i class="linhig-40 fa fa-facebook"></i></a>
+                            <a href="#" class="ds-block h-40 w-40 mb-5 ml-auto bg-main c-white"><i class="linhig-40 fa fa-twitter"></i></a>
+                            <a href="#" class="ds-block h-40 w-40 mb-5 ml-auto bg-main c-white"><i class="linhig-40 fa fa-linkedin"></i></a>
+                        </div>
+                    </div>                    
+                    <div class="team-info trnsit-05">
+                        <h3 class="team-info-title cpliz m-10">john doe</h3>
+                        <span class="team-info-desc upper c-gray fs-14">web designer</span>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section -->
+    <section id=blog class="blog pos-rel pdd-sec w-full bg-ligh">
+        <div class="section-header txt-c">
+            <h2 class="section-title cpliz fs-36 mb-15 mt-30">recent news</h2>
+            <span class="line ds-block h-5 w-75 bg-main mt-0 mr-auto ml-auto mb-70"></span>
+        </div> <!-- ./section-header -->
+        <div class="container m-auto w-egthy">
+            <div class="blog-content flow-hd">
+                <div class="blog w-thrd l-float bg-white">
+                    <div class="blog-img">
+                        <img src="imgs/blog/blog1.webp" alt="The Recent Blog Image" class="w-full">
+                    </div>
+                    <div class="all-info p-20">
+                        <ul class="ds-block m-10">
+                            <li class="ds-inblock mr-15"><i class="fs-16 mr-5 c-main fa fa-user"></i>John doe</li>
+                            <li class="ds-inblock mr-15"><i class="fs-16 mr-5 c-main fa fa-clock-o"></i>18 Oct</li>
+                            <li class="ds-inblock mr-15"><i class="fs-16 mr-5 c-main fa fa-comment"></i>57</li>
+                        </ul>
+                        <div class="blog-dtil">
+                            <h3 class="title m-2010">Moste recent reason created CSS file</h3>
+                            <p class="m-10 fw-lighter fs-14 c-gray linhig-1-7">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, illum?
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, illum?
+                                Lorem, ipsum dolor sit elit. Quod, illum?
+                            </p>
+                            <a href="#" class="bg-trans brdr-zero m-10 c-main pointr fs-16">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog w-thrd l-float bg-white mrg-mdl">
+                    <div class="blog-img">
+                        <img src="imgs/blog/blog2.webp" alt="The Recent Blog Image" class="w-full">
+                    </div>
+                    <div class="all-info p-20">
+                        <ul class="ds-block m-10">
+                            <li class="ds-inblock mr-15"><i class="fs-16 mr-5 c-main fa fa-user"></i>John doe</li>
+                            <li class="ds-inblock mr-15"><i class="fs-16 mr-5 c-main fa fa-clock-o"></i>18 Oct</li>
+                            <li class="ds-inblock mr-15"><i class="fs-16 mr-5 c-main fa fa-comment"></i>57</li>
+                        </ul>
+                        <div class="blog-dtil">
+                            <h3 class="title m-2010">Moste recent reason created CSS file</h3>
+                            <p class="m-10 fw-lighter fs-14 c-gray linhig-1-7">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, illum?
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, illum?
+                                Lorem, ipsum dolor sit elit. Quod, illum?
+                            </p>
+                            <a href="#" class="bg-trans brdr-zero m-10 c-main pointr fs-16">Read more</a>
+                        </div>
+                    </div>                
+                </div>
+                <div class="blog w-thrd l-float bg-white">
+                    <div class="blog-img">
+                        <img src="imgs/blog/blog3.webp" alt="The Recent Blog Image" class="w-full">
+                    </div>
+                    <div class="all-info p-20">
+                        <ul class="ds-block m-10">
+                            <li class="ds-inblock mr-15"><i class="fs-16 mr-5 c-main fa fa-user"></i>John doe</li>
+                            <li class="ds-inblock mr-15"><i class="fs-16 mr-5 c-main fa fa-clock-o"></i>18 Oct</li>
+                            <li class="ds-inblock mr-15"><i class="fs-16 mr-5 c-main fa fa-comment"></i>57</li>
+                        </ul>
+                        <div class="blog-dtil">
+                            <h3 class="title m-2010">Moste recent reason created CSS file</h3>
+                            <p class="m-10 fw-lighter fs-14 c-gray linhig-1-7">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, illum?
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, illum?
+                                Lorem, ipsum dolor sit elit. Quod, illum?
+                            </p>
+                            <a href="#" class="bg-trans brdr-zero m-10 c-main pointr fs-16">Read more</a>
+                        </div>
+                    </div>                
+                </div>                
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id=contact class="contact pdd-sec w-full">
+        <div class="section-header txt-c">
+            <h2 class="section-title cpliz fs-36 mb-15 mt-30">get in touch</h2>
+            <span class="line ds-block h-5 w-75 bg-main mt-0 mr-auto ml-auto mb-70"></span>
+        </div> <!-- ./section-header -->
+        <div class="container m-auto w-egthy">
+            <div class="contact-info pb-30">
+                <div class="contacts flow-hd txt-c">
+                    <div class="info w-thrd l-float">
+                        <a href="#" class="m"><i class="c-main m-10 fa fa-phone fa-3x"></i></a>
+                        <h3 class="m-10 fw-bold">Phone</h3>
+                        <span class="m-10 c-gray fw-lighter">512-421-9966</span>
+                    </div>
+                    <div class="info w-thrd l-float mrg-mdl">
+                        <a href="#" class="m"><i class="c-main m-10 fa fa-envelope fa-3x"></i></a>
+                        <h3 class="m-10 fw-bold">Email</h3>
+                        <span class="m-10 c-gray fw-lighter">emailus@support.com</span>
+                    </div>
+                    <div class="info w-thrd l-float">
+                        <a href="#" class="m"><i class="c-main m-10 fa fa-map-marker fa-3x"></i></a>
+                        <h3 class="m-10 fw-bold">Address</h3>
+                        <span class="m-10 c-gray fw-lighter">KSA Dammam King Fahad Rd</span>
+                    </div>
+                </div>                
+            </div>
+            <div class="contact-form p-20 flow-hd w-sveny m-auto">
+                <input type="text" name="name" id="" class=" w-four5 l-float p-15 mt-15 mb-15 mr-five brdr-3ligh fs-16 " placeholder="Name:">
+                <input type="email" name="email" id="" class=" w-four5 l-float p-15 mt-15 mb-15 ml-five brdr-3ligh fs-16 " placeholder="Email:">
+                <input type="text" name="subject" id="" class="ds-block w-full p-15 mt-15 mb-15 brdr-3ligh fs-16 " placeholder="Subject:">
+                <textarea name="message" id="" placeholder="Message" class="ds-block w-full p-15 mt-15 mb-15 h-100 brdr-3ligh fs-16 " style="overflow:auto;resize:none"></textarea>
+                <input type="button" value="Send Message" class="ds-block w-fit m-auto btnNow cpliz bg-trans mt-20 p-1020 w-150 pointr ds-block m-btn brdr-3main c-main">
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer id="footer" class="pdd-sec w-full bg-effct txt-c">
+        <div class="container w-egthy m-auto">
+            <img src="imgs/logo-alt.webp" alt="" class="ds-block m-auto" draggable="false">
+            <ul class="m">
+                <li class="ds-inblock w-48 h-48 bg-main rad-6 mt-20 mb-20 mr-5 "><a href="#" class="ds-block c-white hover-opacity ml-5"><i class="linhig-48 fs-26 fa-3x fa fa-facebook"></i></a></li>
+                <li class="ds-inblock w-48 h-48 bg-main rad-6 mt-20 mb-20 mr-5 "><a href="#" class="ds-block c-white hover-opacity ml-5"><i class="linhig-48 fs-26 fa-3x fa fa-twitter"></i></a></li>
+                <li class="ds-inblock w-48 h-48 bg-main rad-6 mt-20 mb-20 mr-5 "><a href="#" class="ds-block c-white hover-opacity ml-5"><i class="linhig-48 fs-26 fa-3x fa fa-linkedin"></i></a></li>
+                <li class="ds-inblock w-48 h-48 bg-main rad-6 mt-20 mb-20 mr-5 "><a href="#" class="ds-block c-white hover-opacity ml-5"><i class="linhig-48 fs-26 fa-3x fa fa-google-plus"></i></a></li>
+                <li class="ds-inblock w-48 h-48 bg-main rad-6 mt-20 mb-20 mr-5 "><a href="#" class="ds-block c-white hover-opacity ml-5"><i class="linhig-48 fs-26 fa-3x fa fa-youtube"></i></a></li>
+                <li class="ds-inblock w-48 h-48 bg-main rad-6 mt-20 mb-20 mr-5 "><a href="#" class="ds-block c-white hover-opacity ml-5"><i class="linhig-48 fs-26 fa-3x fa fa-instagram"></i></a></li>
+            </ul>
+            <p class="upper c-gray fs-16 fw-lighter">
+                copyright &copy; 2023 all right reserved by colorlib
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
